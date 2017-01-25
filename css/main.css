@@ -1,0 +1,75 @@
+@font-face {
+    font-family: LatoR;
+    src: url(../fonts/LatoR.ttf);
+}
+
+@font-face {
+    font-family: Cambria;
+    src: url(../fonts/Cambria.ttf);
+}
+
+
+.top_menu {
+    background-image: url(../img/bg/bg.jpg);
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+    left: 0;
+    padding: 25px 0 25px 10px;
+    z-index: 1000;
+}
+
+.top_menu .menubar {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.top_menu .menubar li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.top_menu .menubar .last {
+    margin-right: 0;
+}
+
+.top_menu .menubar a {
+    text-decoration: none;
+    font-family: LatoR;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    transition: 0.1s;
+}
+
+.top_menu .menubar a:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
+    border-bottom: 3px solid white;
+}
+
+.mobile_menu {
+    background: black;
+}
+
+.ivanlis {
+    font-family: Cambria;
+}
+
+.mobilr_menu .navmenu {
+    font-family: Cambria;
+}
+
+.mobile_menu .navmenu,
+.glyphicon {
+    color: white;
+}
+
+.mobile_menu ul li a {
+    color: white;
+}
+
+.mobile_menu ul li a:hover {
+    background: black;
+}
